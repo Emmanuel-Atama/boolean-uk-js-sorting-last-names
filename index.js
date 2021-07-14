@@ -9,3 +9,9 @@ names.push(addLastName);
 // 3. Have an output that sorts the names alphabetically
 const sortLastName = names.sort();
 console.log(sortLastName);
+
+// 4. Have an output that tells you what is the position of your name in the sorted array
+const positionoOfMyLastName = names.indexOf("Atama");
+console.log(positionoOfMyLastName);
+// const positionoOfMyLastName = names[i];
+// for (let i = 0; i < positionoOfMyLastName; i++);
