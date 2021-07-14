@@ -1,4 +1,3 @@
-// ASSIGNMENT
 // Instructions
 // - Create an array with the following last names: Mason, Marcora, Rico, Neves, Ivanov
 // - Have a prompt that adds your last name to the array
