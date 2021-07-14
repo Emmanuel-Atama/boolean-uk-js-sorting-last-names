@@ -20,16 +20,17 @@ console.log(sortLastName);
 
 // 4. Have an output that tells you what is the position of your name in the sorted array
 for (let j = 0; j < names.length; j++) {
-    const positionOfMyLastName = names.indexOf("Atama");
-    console.log(positionOfMyLastName);
-  }
-  
-  // 5. Have an output that Uppercase's all names.
-  for (let i = 0; i < names.length; i++) {
-    const positionOfMyLastName = names[i].toUpperCase();
-    console.log("Uppercase Last Names: ", positionOfMyLastName);
-    //   console.log(i);
-    //   console.log(names[i]);
-    //   console.log(i + 1);
-  }
+  const positionOfMyLastName = sortLastName.indexOf("Atama");
+  console.log("My Position: ", positionOfMyLastName);
+}
+
+// 5. Have an output that Uppercase's all names.
+for (let i = 0; i < names.length; i++) {
+  const positionOfMyLastName = names[i].toUpperCase();
+  console.log("Uppercase Last Names: ", positionOfMyLastName);
+  //   console.log(i);
+  console.log(names[i]);
+  console.log("Index ", i);
+}
+
   
